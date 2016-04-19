@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "StorageManager.h"
+#import "Exam.h"
+#import "Assignment.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +18,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    Exam *exam1 = [[Exam alloc]init];
+    exam1.examDate = [NSDate date];
+    exam1.examName = @"econ exam";
+    
+    Assignment *ass1 = [[Assignment alloc]init];
+    ass1.assignedDate = [NSDate date];
+    
+    [StorageManager SaveData:[exam1 serialized] withKey:kExamClassName];
+    [StorageManager SaveData:[ass1 serialized] withKey:kAssignmentClassName];
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -13,6 +13,9 @@
 		E9CAF6431CBD8A6900CF775F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CAF6411CBD8A6900CF775F /* Main.storyboard */; };
 		E9CAF6451CBD8A6900CF775F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9CAF6441CBD8A6900CF775F /* Assets.xcassets */; };
 		E9CAF6481CBD8A6900CF775F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CAF6461CBD8A6900CF775F /* LaunchScreen.storyboard */; };
+		E9CAF6511CBD8AC700CF775F /* StorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CAF6501CBD8AC700CF775F /* StorageManager.m */; };
+		E9CAF6541CBD93F800CF775F /* Assignment.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CAF6531CBD93F800CF775F /* Assignment.m */; };
+		E9CAF6571CBD940300CF775F /* Exam.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CAF6561CBD940300CF775F /* Exam.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		E9CAF6441CBD8A6900CF775F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9CAF6471CBD8A6900CF775F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9CAF6491CBD8A6900CF775F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9CAF64F1CBD8AC700CF775F /* StorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageManager.h; sourceTree = "<group>"; };
+		E9CAF6501CBD8AC700CF775F /* StorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageManager.m; sourceTree = "<group>"; };
+		E9CAF6521CBD93F800CF775F /* Assignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment.h; sourceTree = "<group>"; };
+		E9CAF6531CBD93F800CF775F /* Assignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment.m; sourceTree = "<group>"; };
+		E9CAF6551CBD940300CF775F /* Exam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exam.h; sourceTree = "<group>"; };
+		E9CAF6561CBD940300CF775F /* Exam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exam.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +71,17 @@
 				E9CAF63C1CBD8A6900CF775F /* AppDelegate.m */,
 				E9CAF63E1CBD8A6900CF775F /* ViewController.h */,
 				E9CAF63F1CBD8A6900CF775F /* ViewController.m */,
+				E9CAF6521CBD93F800CF775F /* Assignment.h */,
+				E9CAF6531CBD93F800CF775F /* Assignment.m */,
+				E9CAF6551CBD940300CF775F /* Exam.h */,
+				E9CAF6561CBD940300CF775F /* Exam.m */,
 				E9CAF6411CBD8A6900CF775F /* Main.storyboard */,
 				E9CAF6441CBD8A6900CF775F /* Assets.xcassets */,
 				E9CAF6461CBD8A6900CF775F /* LaunchScreen.storyboard */,
 				E9CAF6491CBD8A6900CF775F /* Info.plist */,
 				E9CAF6381CBD8A6900CF775F /* Supporting Files */,
+				E9CAF64F1CBD8AC700CF775F /* StorageManager.h */,
+				E9CAF6501CBD8AC700CF775F /* StorageManager.m */,
 			);
 			path = SimpleStorage;
 			sourceTree = "<group>";
@@ -149,9 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9CAF6571CBD940300CF775F /* Exam.m in Sources */,
 				E9CAF6401CBD8A6900CF775F /* ViewController.m in Sources */,
 				E9CAF63D1CBD8A6900CF775F /* AppDelegate.m in Sources */,
 				E9CAF63A1CBD8A6900CF775F /* main.m in Sources */,
+				E9CAF6541CBD93F800CF775F /* Assignment.m in Sources */,
+				E9CAF6511CBD8AC700CF775F /* StorageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
